@@ -1,0 +1,21 @@
+.boxed{
+  border-style: outset; 
+  margin-top: 150px;
+  margin-left: 150px;
+  margin-right: 150px;
+  text-align: center;
+  background-color: black
+}
+.nah{
+  margin-top: 1px;
+  color: black
+}
+body{
+  background-color: white
+}
+h3{
+  color: white
+}
+h5{
+  color: white
+}
