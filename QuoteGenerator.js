@@ -1,17 +1,20 @@
 class Quotes extends React.Component {
   constructor() {
     super();
+    // created state variables
     this.state = {
       quotes: ['"Those who don’t believe in magic will never find it."', '"Be yourself and people will like you."', '"It is better to be hated for what you are than to be loved for what you are not. "', '"Time you enjoy wasting is not wasted time."', '"The worst enemy to creativity is self-doubt."'],
       author: ["Roald Dahl", "Jeff Kinney", "André Gide", "Marthe Troly-Curtin", "Sylvia Plath"],
       button: Math.floor(Math.random() * 5) };
 
   }
+  //function to get a random quote
   buttonClick() {
     this.setState((prevState, props) => {
       return { button: Math.floor(Math.random() * 5) };
     });
   }
+  //render
   render() {
     return /*#__PURE__*/(
       React.createElement("div", null, /*#__PURE__*/
